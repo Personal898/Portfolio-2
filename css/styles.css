@@ -10148,7 +10148,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header05.jpg");
+  background-image: url("../assets/img/header02.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10544,4 +10544,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: auto;
   height: 100%;
   margin-left: -50px;
+}
+
+.img-circular{
+ width: 200px;
+ height: 200px;
+ background-image: url('http://strawberry-fest.org/wp-content/uploads/2012/01/Coca-Cola-logo.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
 }
