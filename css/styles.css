@@ -10530,6 +10530,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
-.img-fluid {
+.circular--square {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  /* width: 200px; */
+  height: 500px;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
+.circular--square img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
 }
