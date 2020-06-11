@@ -10556,3 +10556,11 @@ section#contact form#contactForm :-ms-input-placeholder {
  -webkit-border-radius: 100px;
  -moz-border-radius: 100px;
 }
+
+.img_container{
+    /* width:100%; */
+    /* height:100px; */
+    position: absolute;
+    text-align: center;
+    /* background:red; */
+}
