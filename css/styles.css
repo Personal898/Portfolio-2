@@ -3046,7 +3046,7 @@ input[type=button].btn-block {
   border-left: 0.3em solid transparent;
 }
 .dropdown-toggle:empty::after {
-  margin-left: 0;
+  margin-left: 50%;
 }
 
 .dropdown-menu {
@@ -10134,10 +10134,11 @@ img::-moz-selection {
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
+/* this is the togle nevbarnevbar font and size */
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
-  color: #fff;
+  font-size: 1.0rem;
+  color: #bcb7c4;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10163,7 +10164,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    /* background-color: #212529; */
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
